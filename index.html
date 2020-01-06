@@ -55,12 +55,17 @@
                 <label for="expirationDate">
                     Expiration date
                 </label>
-                <input type="text" name="expirationDateMonth" id="expirationDateMonth" class="card-expiration-date__month">
+                <select class="card-expiration-date__month" name="expirationDateMonth" id="expirationDateMonth">
+                    <option repeat="month in months">
+                        {{ month }}
+                    </option>
+                </select>
             </div>
         </form>
 
     </div>
 
     <script src="script.js"></script>
+    <script src="core.js"></script>
 </body>
 </html>

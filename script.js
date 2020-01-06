@@ -1,4 +1,6 @@
 (() => {
+    document.months = [];
+
     document.querySelector('.toggle').onclick = (event) => {
         const card = document.querySelector('.card');
 
@@ -7,6 +9,5 @@
         } else {
             card.classList.add('reverse');
         }
-        
     };
 })();
