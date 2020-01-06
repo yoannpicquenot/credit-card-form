@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="card-form-wrapper">
+            <div class="card-preview">
+                <div class="card">
+                    <div class="card__front">
+                        <div class="card__chip">
+                            <img src="assets/chip.jpg" alt="credit-card-chip">
+                        </div>
+                        <div class="card__number">
+                            <span>1234 5678 9101 1123</span>
+                        </div>
+                        <div class="card__expiration-date">
+                            <span class="card__expiration-date__label">VALID</br>THRU</span>
+                            <span class="card__expiration-date__date">01/02</span>
+                        </div>
+                        <div class="card__owner">
+                            <span>YOANN PICQUENOT</span>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="back__bar"></div>
+                        <div class="back__code">
+                            <span>123</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-form">
+                <button class="toggle">
+                    toggle
+                </button>
+            </div>
+        </div>
+
+        <form novalidate>
+            <div class="input-group">
+                <label for="cardNumber">
+                    Card number
+                </label>
+                <input type="text" id="cardNumber" id="cardNumber" class="card-number">
+            </div>
+            <div class="input-group">
+                <label for="expirationDate">
+                    Expiration date
+                </label>
+                <input type="text" name="expirationDateMonth" id="expirationDateMonth" class="card-expiration-date__month">
+            </div>
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

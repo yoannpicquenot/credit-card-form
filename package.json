@@ -1,0 +1,14 @@
+{
+  "name": "credit-card-form",
+  "version": "1.0.0",
+  "description": "Just a little credit card form",
+  "main": "null",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "Yoann Picquenot",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
